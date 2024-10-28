@@ -10,7 +10,7 @@ func main() {
     // Endpoint root
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
         log.Println("Handling request to root endpoint")
-        fmt.Fprintf(w, "Hello, World!")
+        fmt.Fprintf(w, "Hello, World!!")
     })
 
     // Health check endpoint
